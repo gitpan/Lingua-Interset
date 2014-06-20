@@ -22,16 +22,18 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Exporter::Easy" => 0,
-    "Moose" => "2.1205",
+    "Moose" => 2,
     "MooseX::SemiAffordanceAccessor" => 0,
     "namespace::autoclean" => 0,
     "open" => 0,
-    "utf8" => 0
+    "strict" => 0,
+    "utf8" => 0,
+    "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "2.001",
+  "VERSION" => "2.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,12 +43,14 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Carp" => 0,
   "Exporter::Easy" => 0,
-  "Moose" => "2.1205",
+  "Moose" => 2,
   "MooseX::SemiAffordanceAccessor" => 0,
   "Test::More" => 0,
   "namespace::autoclean" => 0,
   "open" => 0,
-  "utf8" => 0
+  "strict" => 0,
+  "utf8" => 0,
+  "warnings" => 0
 );
 
 
