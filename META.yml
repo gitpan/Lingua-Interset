@@ -16,6 +16,7 @@ name: Lingua-Interset
 requires:
   Carp: 0
   Exporter::Easy: 0
+  List::MoreUtils: 0
   Moose: 2
   MooseX::SemiAffordanceAccessor: 0
   namespace::autoclean: 0
@@ -24,4 +25,4 @@ requires:
   strict: 0
   utf8: 0
   warnings: 0
-version: 2.002
+version: 2.003
