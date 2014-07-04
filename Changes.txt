@@ -1,3 +1,16 @@
+2.004     2014-07-04 16:29:33+02:00 Europe/Prague
+
+Interface:
+* New attribute encode_default of class SimpleAtom.
+
+Features:
+* Three new values of feature 'style': 'rare' (rare), 'poet' (poetic), and 'expr' (expressive, emotional).
+
+Drivers:
+* CS::Multext
+
+
+
 2.003     2014-06-27 23:23:33+02:00 Europe/Prague
 
 Architecture:

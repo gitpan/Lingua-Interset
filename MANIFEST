@@ -12,6 +12,7 @@ docs/Lingua-Interset-OldTagsetDriver.html
 docs/Lingua-Interset-SimpleAtom.html
 docs/Lingua-Interset-Tagset-CS-Conll.html
 docs/Lingua-Interset-Tagset-CS-Conll2009.html
+docs/Lingua-Interset-Tagset-CS-Multext.html
 docs/Lingua-Interset-Tagset-CS-Pdt.html
 docs/Lingua-Interset-Tagset-EN-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll2009.html
@@ -27,6 +28,7 @@ lib/Lingua/Interset/SimpleAtom.pm
 lib/Lingua/Interset/Tagset.pm
 lib/Lingua/Interset/Tagset/CS/Conll.pm
 lib/Lingua/Interset/Tagset/CS/Conll2009.pm
+lib/Lingua/Interset/Tagset/CS/Multext.pm
 lib/Lingua/Interset/Tagset/CS/Pdt.pm
 lib/Lingua/Interset/Tagset/EN/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll2009.pm
