@@ -113,13 +113,8 @@ DT {
   <li class='indexItem indexItem1'><a href='#VERSION'>VERSION</a>
   <li class='indexItem indexItem1'><a href='#SYNOPSIS'>SYNOPSIS</a>
   <li class='indexItem indexItem1'><a href='#DESCRIPTION'>DESCRIPTION</a>
-  <li class='indexItem indexItem1'><a href='#METHODS'>METHODS</a>
-  <ul   class='indexList indexList2'>
-    <li class='indexItem indexItem2'><a href='#decode()'>decode()</a>
-    <li class='indexItem indexItem2'><a href='#encode()'>encode()</a>
-    <li class='indexItem indexItem2'><a href='#list()'>list()</a>
-  </ul>
   <li class='indexItem indexItem1'><a href='#SEE_ALSO'>SEE ALSO</a>
+  <li class='indexItem indexItem1'><a href='#AUTHOR'>AUTHOR</a>
   <li class='indexItem indexItem1'><a href='#AUTHOR'>AUTHOR</a>
   <li class='indexItem indexItem1'><a href='#COPYRIGHT_AND_LICENSE'>COPYRIGHT AND LICENSE</a>
 </ul>
@@ -129,7 +124,7 @@ DT {
 name="NAME"
 >NAME</a></h1>
 
-<p>Lingua::Interset::OldTagsetDriver - A temporary envelope that provides access to the old (Interset 1.0) drivers from Interset 2.0.</p>
+<p>Lingua::Interset::Tagset::CS::Ajka - Driver for the tagset of the Czech morphological analyzers Ajka and Majka (Masaryk University in Brno).</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="VERSION"
@@ -141,56 +136,42 @@ name="VERSION"
 name="SYNOPSIS"
 >SYNOPSIS</a></h1>
 
-<pre>  # (No need to
-  #     use tagset::en::conll;
-  # here. It will be taken care of within OldTagsetDriver.)
-  use Lingua::Interset::OldTagsetDriver;
-  my $driver = Lingua::Interset::OldTagsetDriver-&#62;new(driver =&#62; &#39;en::conll&#39;);
-  my $fs = $driver-&#62;decode(&#34;NN\tNN\t_&#34;);</pre>
+<pre>  use Lingua::Interset::Tagset::CS::Ajka;
+  my $driver = Lingua::Interset::Tagset::CS::Ajka-&#62;new();
+  my $fs = $driver-&#62;decode(&#39;k1gMnSc1&#39;);</pre>
+
+<p>or</p>
+
+<pre>  use Lingua::Interset qw(decode);
+  my $fs = decode(&#39;cs::ajka&#39;, &#39;k1gMnSc1&#39;);</pre>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="DESCRIPTION"
 >DESCRIPTION</a></h1>
 
-<p>Provides object envelope for an old, non-object-oriented driver from Interset 1.0. This makes the old drivers at least partially usable until they are fully ported to Interset 2.0. Note however that the old drivers use Interset features and/or values that have been changed in the new version.</p>
+<p>Interset driver for the tagsets of the Czech morphological analyzers Ajka and Majka (from the Masaryk University in Brno).</p>
 
-<h1><a class='u' href='#___top' title='click to go to top of document'
-name="METHODS"
->METHODS</a></h1>
+<p>Multiple different flavors of the tagset have been used in different tools. The Ajka analyzer was written by Radek Sedl&#225;&#269;ek as part of his master thesis (1999). In 2009, a the tool was completely rewritten by Pavel &#352;merk and it got a new name, Majka. It still used more or less the same tagset. In 2011, a significant revision of the tagset was announced; the new versiou should be called 2.0, the old tagset (all flavors) would be retroactively called 1.0. According to this numbering, the Czech lexical database that is available for download with Majka in July 2014 is still 1.0. That is also the version that this driver assumes.</p>
 
-<h2><a class='u' href='#___top' title='click to go to top of document'
-name="decode()"
->decode()</a></h2>
-
-<pre>  my $fs  = $driver-&#62;decode ($tag);</pre>
-
-<p>Takes a tag (string) and returns a <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
->Lingua::Interset::FeatureStructure</a> object with corresponding feature values set.</p>
-
-<h2><a class='u' href='#___top' title='click to go to top of document'
-name="encode()"
->encode()</a></h2>
-
-<pre>  my $tag = $driver-&#62;encode ($fs);</pre>
-
-<p>Takes a <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
->Lingua::Interset::FeatureStructure</a> object and returns the tag (string) in the given tagset that corresponds to the feature values. Note that some features may be ignored because they cannot be represented in the given tagset.</p>
-
-<h2><a class='u' href='#___top' title='click to go to top of document'
-name="list()"
->list()</a></h2>
-
-<pre>  my $list_of_tags = $driver-&#62;list();</pre>
-
-<p>Returns the reference to the list of all known tags in this particular tagset. This is not directly needed to decode, encode or convert tags but it is very useful for testing and advanced operations over the tagset. Note however that many tagset drivers contain only an approximate list, created by collecting tag occurrences in some corpus.</p>
+<p>For more on Ajka, see <a href="http://nlp.fi.muni.cz/projekty/ajka/ajkacz.htm" class="podlinkurl"
+>http://nlp.fi.muni.cz/projekty/ajka/ajkacz.htm</a>. For more on the original tagset of Ajka, see <a href="http://nlp.fi.muni.cz/projekty/ajka/tags.pdf" class="podlinkurl"
+>http://nlp.fi.muni.cz/projekty/ajka/tags.pdf</a>. For more on the proposed version 2.0 of the tagset (not covered by this driver), see <a href="http://raslan2011.nlp-consulting.net/program/paper05.pdf?attredirects=0" class="podlinkurl"
+>http://raslan2011.nlp-consulting.net/program/paper05.pdf?attredirects=0</a>.</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="SEE_ALSO"
 >SEE ALSO</a></h1>
 
-<p><a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3ATagset" class="podlinkpod"
+<p><a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset" class="podlinkpod"
+>Lingua::Interset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3ATagset" class="podlinkpod"
 >Lingua::Interset::Tagset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
 >Lingua::Interset::FeatureStructure</a></p>
+
+<h1><a class='u' href='#___top' title='click to go to top of document'
+name="AUTHOR"
+>AUTHOR</a></h1>
+
+<p>Petr Po&#345;&#237;zka, Markus Sch&#228;fer, Dan Zeman &#60;zeman@ufal.mff.cuni.cz&#62;</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="AUTHOR"
