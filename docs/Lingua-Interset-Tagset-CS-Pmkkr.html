@@ -1,4 +1,4 @@
-<html><head><title>Lingua::Interset::Tagset::CS::Pdt</title>
+<html><head><title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
 
 <style type="text/css">
@@ -123,7 +123,7 @@ DT {
 name="NAME"
 >NAME</a></h1>
 
-<p>Lingua::Interset::Tagset::CS::Pdt - Driver for the tagset of the Prague Dependency Treebank.</p>
+<p>Lingua::Interset::Tagset::CS::Pmkkr - Driver for the shortened Czech tagset of the Prague Spoken Corpus (Pra&#197;&#190;sk&#195;&#189; mluven&#195;&#189; korpus).</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="VERSION"
@@ -135,20 +135,20 @@ name="VERSION"
 name="SYNOPSIS"
 >SYNOPSIS</a></h1>
 
-<pre>  use Lingua::Interset::Tagset::CS::Pdt;
-  my $driver = Lingua::Interset::Tagset::CS::Pdt-&#62;new();
-  my $fs = $driver-&#62;decode(&#39;NNMS1-----A----&#39;);</pre>
+<pre>  use Lingua::Interset::Tagset::CS::Pmk;
+  my $driver = Lingua::Interset::Tagset::CS::Pmk-&#62;new();
+  my $fs = $driver-&#62;decode(&#39;&#60;i1&#62;1&#60;/i1&#62;&#60;i2&#62;1&#60;/i2&#62;&#60;i3&#62;1&#60;/i3&#62;&#60;i4&#62;0&#60;/i4&#62;&#60;i5&#62;1&#60;/i5&#62;&#60;i6&#62;1&#60;/i6&#62;&#60;i7&#62;1&#60;/i7&#62;&#60;i8&#62;1&#60;/i8&#62;&#60;i9&#62;_&#60;/i9&#62;&#60;i10&#62;_&#60;/i10&#62;&#60;i11&#62;&#60;/i11&#62;&#39;);</pre>
 
 <p>or</p>
 
 <pre>  use Lingua::Interset qw(decode);
-  my $fs = decode(&#39;cs::pdt&#39;, &#39;NNMS1-----A----&#39;);</pre>
+  my $fs = decode(&#39;cs::pmk&#39;, &#39;&#60;i1&#62;1&#60;/i1&#62;&#60;i2&#62;1&#60;/i2&#62;&#60;i3&#62;1&#60;/i3&#62;&#60;i4&#62;0&#60;/i4&#62;&#60;i5&#62;1&#60;/i5&#62;&#60;i6&#62;1&#60;/i6&#62;&#60;i7&#62;1&#60;/i7&#62;&#60;i8&#62;1&#60;/i8&#62;&#60;i9&#62;_&#60;/i9&#62;&#60;i10&#62;_&#60;/i10&#62;&#60;i11&#62;&#60;/i11&#62;&#39;);</pre>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="DESCRIPTION"
 >DESCRIPTION</a></h1>
 
-<p>Interset driver for the part-of-speech tagset of the Prague Dependency Treebank.</p>
+<p>Interset driver for the long tags of the Prague Spoken Corpus (Pra&#382;sk&#253; mluven&#253; korpus, PMK).</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="SEE_ALSO"
@@ -156,7 +156,8 @@ name="SEE_ALSO"
 
 <p><a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset" class="podlinkpod"
 >Lingua::Interset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3ATagset" class="podlinkpod"
->Lingua::Interset::Tagset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
+>Lingua::Interset::Tagset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3ATagset%3A%3ACS%3A%3APmkkr" class="podlinkpod"
+>Lingua::Interset::Tagset::CS::Pmkkr</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
 >Lingua::Interset::FeatureStructure</a></p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'

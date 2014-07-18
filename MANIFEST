@@ -16,9 +16,13 @@ docs/Lingua-Interset-Tagset-CS-Conll.html
 docs/Lingua-Interset-Tagset-CS-Conll2009.html
 docs/Lingua-Interset-Tagset-CS-Multext.html
 docs/Lingua-Interset-Tagset-CS-Pdt.html
+docs/Lingua-Interset-Tagset-CS-Pmk.html
+docs/Lingua-Interset-Tagset-CS-Pmkkr.html
 docs/Lingua-Interset-Tagset-EN-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll2009.html
 docs/Lingua-Interset-Tagset-EN-Penn.html
+docs/Lingua-Interset-Tagset-HR-Multext.html
+docs/Lingua-Interset-Tagset-Multext.html
 docs/Lingua-Interset-Tagset.html
 docs/Lingua-Interset-Trie.html
 docs/Lingua-Interset.html
@@ -34,9 +38,13 @@ lib/Lingua/Interset/Tagset/CS/Conll.pm
 lib/Lingua/Interset/Tagset/CS/Conll2009.pm
 lib/Lingua/Interset/Tagset/CS/Multext.pm
 lib/Lingua/Interset/Tagset/CS/Pdt.pm
+lib/Lingua/Interset/Tagset/CS/Pmk.pm
+lib/Lingua/Interset/Tagset/CS/Pmkkr.pm
 lib/Lingua/Interset/Tagset/EN/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll2009.pm
 lib/Lingua/Interset/Tagset/EN/Penn.pm
+lib/Lingua/Interset/Tagset/HR/Multext.pm
+lib/Lingua/Interset/Tagset/Multext.pm
 lib/Lingua/Interset/Trie.pm
 t/author-critic.t
 t/test.t
