@@ -10,6 +10,9 @@ docs/Lingua-Interset-Atom.html
 docs/Lingua-Interset-FeatureStructure.html
 docs/Lingua-Interset-OldTagsetDriver.html
 docs/Lingua-Interset-SimpleAtom.html
+docs/Lingua-Interset-Tagset-AR-Conll.html
+docs/Lingua-Interset-Tagset-AR-Conll2007.html
+docs/Lingua-Interset-Tagset-AR-Padt.html
 docs/Lingua-Interset-Tagset-CS-Ajka.html
 docs/Lingua-Interset-Tagset-CS-Cnk.html
 docs/Lingua-Interset-Tagset-CS-Conll.html
@@ -32,6 +35,9 @@ lib/Lingua/Interset/FeatureStructure.pm
 lib/Lingua/Interset/OldTagsetDriver.pm
 lib/Lingua/Interset/SimpleAtom.pm
 lib/Lingua/Interset/Tagset.pm
+lib/Lingua/Interset/Tagset/AR/Conll.pm
+lib/Lingua/Interset/Tagset/AR/Conll2007.pm
+lib/Lingua/Interset/Tagset/AR/Padt.pm
 lib/Lingua/Interset/Tagset/CS/Ajka.pm
 lib/Lingua/Interset/Tagset/CS/Cnk.pm
 lib/Lingua/Interset/Tagset/CS/Conll.pm
