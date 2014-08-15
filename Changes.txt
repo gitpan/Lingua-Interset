@@ -1,3 +1,14 @@
+2.010     2014-08-15 20:14:29+02:00 Europe/Prague
+
+Interface:
+* New importable functions in the main package: find_tagsets() and hash_drivers().
+
+Drivers:
+* BN::Conll
+* MUL::Google
+
+
+
 2.009     2014-08-11 17:20:03+02:00 Europe/Prague
 
 Features:
