@@ -24,6 +24,7 @@ docs/Lingua-Interset-Tagset-CS-Multext.html
 docs/Lingua-Interset-Tagset-CS-Pdt.html
 docs/Lingua-Interset-Tagset-CS-Pmk.html
 docs/Lingua-Interset-Tagset-CS-Pmkkr.html
+docs/Lingua-Interset-Tagset-DA-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll2009.html
 docs/Lingua-Interset-Tagset-EN-Penn.html
@@ -55,6 +56,7 @@ lib/Lingua/Interset/Tagset/CS/Multext.pm
 lib/Lingua/Interset/Tagset/CS/Pdt.pm
 lib/Lingua/Interset/Tagset/CS/Pmk.pm
 lib/Lingua/Interset/Tagset/CS/Pmkkr.pm
+lib/Lingua/Interset/Tagset/DA/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll2009.pm
 lib/Lingua/Interset/Tagset/EN/Penn.pm

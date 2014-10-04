@@ -1,4 +1,4 @@
-<html><head><title>Lingua::Interset::Tagset::MUL::Google</title>
+<html><head><title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
 
 <style type="text/css">
@@ -123,7 +123,7 @@ DT {
 name="NAME"
 >NAME</a></h1>
 
-<p>Lingua::Interset::Tagset::MUL::Google - Driver for the Google Universal Part-of-Speech Tagset.</p>
+<p>Lingua::Interset::Tagset::DA::Conll - Driver for the Danish tagset of the CoNLL 2006 Shared Task (derived from the Danish Parole tagset).</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="VERSION"
@@ -135,35 +135,28 @@ name="VERSION"
 name="SYNOPSIS"
 >SYNOPSIS</a></h1>
 
-<pre>  use Lingua::Interset::Tagset::MUL::Google;
-  my $driver = Lingua::Interset::Tagset::MUL::Google-&#62;new();
-  my $fs = $driver-&#62;decode(&#39;NOUN&#39;);</pre>
+<pre>  use Lingua::Interset::Tagset::DA::Conll;
+  my $driver = Lingua::Interset::Tagset::DA::Conll-&#62;new();
+  my $fs = $driver-&#62;decode(&#34;N\nNC\ngender=common|number=sing|case=unmarked|def=indef&#34;);</pre>
 
 <p>or</p>
 
 <pre>  use Lingua::Interset qw(decode);
-  my $fs = decode(&#39;mul::google&#39;, &#39;NOUN&#39;);</pre>
+  my $fs = decode(&#39;da::conll&#39;, &#34;N\nNC\ngender=common|number=sing|case=unmarked|def=indef&#34;);</pre>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="DESCRIPTION"
 >DESCRIPTION</a></h1>
 
-<p>Interset driver for the Google Universal Part-of-Speech Tagset in its first published version, see</p>
-
-<p>Slav Petrov, Dipanjan Das and Ryan McDonald: A Universal Part-of-Speech Tagset. In: Proceedings of LREC 2012 (<a href="http://www.lrec-conf.org/proceedings/lrec2012/summaries/274.html" class="podlinkurl"
->http://www.lrec-conf.org/proceedings/lrec2012/summaries/274.html</a>).</p>
-
-<p>For more resources on the tagset see <a href="http://code.google.com/p/universal-pos-tags/" class="podlinkurl"
->http://code.google.com/p/universal-pos-tags/</a>.</p>
+<p>Interset driver for the Danish tagset of the CoNLL 2006 Shared Task. CoNLL tagsets in Interset are traditionally three values separated by tabs. The values come from the CoNLL columns CPOS, POS and FEAT. For Danish, these values are derived from the Danish PAROLE tagset, as used in the Danish Dependency Treebank.</p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
 name="SEE_ALSO"
 >SEE ALSO</a></h1>
 
 <p><a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset" class="podlinkpod"
->Lingua::Interset</a> <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3ATagset" class="podlinkpod"
->Lingua::Interset::Tagset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AAtom" class="podlinkpod"
->Lingua::Interset::Atom</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
+>Lingua::Interset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3ATagset" class="podlinkpod"
+>Lingua::Interset::Tagset</a>, <a href="http://search.cpan.org/perldoc?Lingua%3A%3AInterset%3A%3AFeatureStructure" class="podlinkpod"
 >Lingua::Interset::FeatureStructure</a></p>
 
 <h1><a class='u' href='#___top' title='click to go to top of document'
