@@ -24,6 +24,7 @@ docs/Lingua-Interset-Tagset-CS-Multext.html
 docs/Lingua-Interset-Tagset-CS-Pdt.html
 docs/Lingua-Interset-Tagset-CS-Pmk.html
 docs/Lingua-Interset-Tagset-CS-Pmkkr.html
+docs/Lingua-Interset-Tagset-Conll.html
 docs/Lingua-Interset-Tagset-DA-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll2009.html
@@ -32,6 +33,7 @@ docs/Lingua-Interset-Tagset-ES-Conll2009.html
 docs/Lingua-Interset-Tagset-HR-Multext.html
 docs/Lingua-Interset-Tagset-JA-Ipadic.html
 docs/Lingua-Interset-Tagset-MUL-Google.html
+docs/Lingua-Interset-Tagset-MUL-Upos.html
 docs/Lingua-Interset-Tagset-Multext.html
 docs/Lingua-Interset-Tagset.html
 docs/Lingua-Interset-Trie.html
@@ -56,6 +58,7 @@ lib/Lingua/Interset/Tagset/CS/Multext.pm
 lib/Lingua/Interset/Tagset/CS/Pdt.pm
 lib/Lingua/Interset/Tagset/CS/Pmk.pm
 lib/Lingua/Interset/Tagset/CS/Pmkkr.pm
+lib/Lingua/Interset/Tagset/Conll.pm
 lib/Lingua/Interset/Tagset/DA/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll2009.pm
@@ -64,6 +67,7 @@ lib/Lingua/Interset/Tagset/ES/Conll2009.pm
 lib/Lingua/Interset/Tagset/HR/Multext.pm
 lib/Lingua/Interset/Tagset/JA/Ipadic.pm
 lib/Lingua/Interset/Tagset/MUL/Google.pm
+lib/Lingua/Interset/Tagset/MUL/Upos.pm
 lib/Lingua/Interset/Tagset/Multext.pm
 lib/Lingua/Interset/Trie.pm
 t/author-critic.t
