@@ -1,3 +1,17 @@
+2.015     2014-10-10 18:23:36+02:00 Europe/Prague
+
+Drivers:
+* DE::Stts
+* DE::Conll
+* DE::Conll2009
+* MUL::Uposf
+
+Fixes:
+* Fixed a bug in Atom::list(). Previously, tags were taken from encode but not from decode map.
+* FeatureStructure has new method get_ufeatures() for the universal features.
+
+
+
 2.014     2014-10-06 22:10:01+02:00 Europe/Prague
 
 Drivers:
