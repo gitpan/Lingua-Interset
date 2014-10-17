@@ -39,6 +39,7 @@ docs/Lingua-Interset-Tagset-MUL-Google.html
 docs/Lingua-Interset-Tagset-MUL-Upos.html
 docs/Lingua-Interset-Tagset-MUL-Uposf.html
 docs/Lingua-Interset-Tagset-Multext.html
+docs/Lingua-Interset-Tagset-PT-Cintil.html
 docs/Lingua-Interset-Tagset.html
 docs/Lingua-Interset-Trie.html
 docs/Lingua-Interset.html
@@ -77,6 +78,7 @@ lib/Lingua/Interset/Tagset/MUL/Google.pm
 lib/Lingua/Interset/Tagset/MUL/Upos.pm
 lib/Lingua/Interset/Tagset/MUL/Uposf.pm
 lib/Lingua/Interset/Tagset/Multext.pm
+lib/Lingua/Interset/Tagset/PT/Cintil.pm
 lib/Lingua/Interset/Trie.pm
 t/author-critic.t
 t/test.t
