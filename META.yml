@@ -2,8 +2,7 @@
 abstract: 'DZ Interset is a universal morphosyntactic feature set to which all tagsets of all corpora/languages can be mapped.'
 author:
   - 'Dan Zeman <zeman@ufal.mff.cuni.cz>'
-build_requires:
-  Test::More: '0'
+build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
 dynamic_config: 0
@@ -25,4 +24,4 @@ requires:
   strict: '0'
   utf8: '0'
   warnings: '0'
-version: '2.018'
+version: '2.019'

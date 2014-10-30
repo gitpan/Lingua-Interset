@@ -81,4 +81,4 @@ lib/Lingua/Interset/Tagset/Multext.pm
 lib/Lingua/Interset/Tagset/PT/Cintil.pm
 lib/Lingua/Interset/Trie.pm
 t/author-critic.t
-t/test.t
+t/author-test.t

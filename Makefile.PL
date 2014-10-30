@@ -31,10 +31,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "TEST_REQUIRES" => {
-    "Test::More" => 0
-  },
-  "VERSION" => "2.018",
+  "VERSION" => "2.019",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -47,7 +44,6 @@ my %FallbackPrereqs = (
   "List::MoreUtils" => 0,
   "Moose" => 2,
   "MooseX::SemiAffordanceAccessor" => 0,
-  "Test::More" => 0,
   "namespace::autoclean" => 0,
   "open" => 0,
   "strict" => 0,
