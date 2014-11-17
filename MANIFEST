@@ -35,6 +35,8 @@ docs/Lingua-Interset-Tagset-EN-Conll.html
 docs/Lingua-Interset-Tagset-EN-Conll2009.html
 docs/Lingua-Interset-Tagset-EN-Penn.html
 docs/Lingua-Interset-Tagset-ES-Conll2009.html
+docs/Lingua-Interset-Tagset-ET-Puudepank.html
+docs/Lingua-Interset-Tagset-EU-Conll.html
 docs/Lingua-Interset-Tagset-HR-Multext.html
 docs/Lingua-Interset-Tagset-JA-Ipadic.html
 docs/Lingua-Interset-Tagset-MUL-Google.html
@@ -75,6 +77,8 @@ lib/Lingua/Interset/Tagset/EN/Conll.pm
 lib/Lingua/Interset/Tagset/EN/Conll2009.pm
 lib/Lingua/Interset/Tagset/EN/Penn.pm
 lib/Lingua/Interset/Tagset/ES/Conll2009.pm
+lib/Lingua/Interset/Tagset/ET/Puudepank.pm
+lib/Lingua/Interset/Tagset/EU/Conll.pm
 lib/Lingua/Interset/Tagset/HR/Multext.pm
 lib/Lingua/Interset/Tagset/JA/Ipadic.pm
 lib/Lingua/Interset/Tagset/MUL/Google.pm

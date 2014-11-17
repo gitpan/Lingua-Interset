@@ -1,4 +1,24 @@
-2.020
+2.021
+
+Features:
+* New features for the multi-argument agreement of Basque synthetic verbs:
+  * absperson, absnumber, abspoliteness
+  * ergperson, ergnumber, ergpoliteness, erggender
+  * datperson, datnumber, datpoliteness, datgender
+
+Drivers:
+* ET::Puudepank
+* EU::Conll
+
+Interface:
+* FeatureStructure has new methods is_masculine(), is_feminine(), is_neuter(), is_common_gender(),
+  is_negative(), is_affirmative(), is_auxiliary(), is_modal(), is_gerund(), is_conditional(),
+  is_cardinal(), is_ordinal(), is_personal_pronoun().
+* New method Atom::merge_atoms() helps create a big atom to decode unnamed features.
+
+
+
+2.020     2014-10-31 17:34:17+01:00 Europe/Prague
 
 Features:
 * Two new values of the feature 'foreign':
