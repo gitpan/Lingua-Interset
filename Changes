@@ -1,4 +1,14 @@
-2.021
+2.022
+
+Features:
+* New value 'exc' of the feature 'prontype': exclamative determiner or pronoun (e.g. "WHAT a surprise!")
+
+Drivers:
+* FA::Conll
+
+
+
+2.021     2014-11-17 01:04:13+01:00 Europe/Prague
 
 Features:
 * New features for the multi-argument agreement of Basque synthetic verbs:
