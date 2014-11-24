@@ -40,6 +40,7 @@ docs/Lingua-Interset-Tagset-EU-Conll.html
 docs/Lingua-Interset-Tagset-FA-Conll.html
 docs/Lingua-Interset-Tagset-FI-Turku.html
 docs/Lingua-Interset-Tagset-GRC-Conll.html
+docs/Lingua-Interset-Tagset-HE-Conll.html
 docs/Lingua-Interset-Tagset-HR-Multext.html
 docs/Lingua-Interset-Tagset-JA-Ipadic.html
 docs/Lingua-Interset-Tagset-MUL-Google.html
@@ -85,6 +86,7 @@ lib/Lingua/Interset/Tagset/EU/Conll.pm
 lib/Lingua/Interset/Tagset/FA/Conll.pm
 lib/Lingua/Interset/Tagset/FI/Turku.pm
 lib/Lingua/Interset/Tagset/GRC/Conll.pm
+lib/Lingua/Interset/Tagset/HE/Conll.pm
 lib/Lingua/Interset/Tagset/HR/Multext.pm
 lib/Lingua/Interset/Tagset/JA/Ipadic.pm
 lib/Lingua/Interset/Tagset/MUL/Google.pm

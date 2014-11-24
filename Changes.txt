@@ -1,3 +1,13 @@
+2.025     2014-11-24 17:43:29+01:00 Europe/Prague
+
+Features:
+* New value 'int' of the feature 'voice': intensive voice/aspect (the PIEL binyan) in Hebrew.
+
+Drivers:
+* HE::Conll
+
+
+
 2.024     2014-11-21 17:24:35+01:00 Europe/Prague
 
 Features:
