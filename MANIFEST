@@ -45,6 +45,7 @@ docs/Lingua-Interset-Tagset-HE-Conll.html
 docs/Lingua-Interset-Tagset-HI-Conll.html
 docs/Lingua-Interset-Tagset-HR-Multext.html
 docs/Lingua-Interset-Tagset-HU-Conll.html
+docs/Lingua-Interset-Tagset-IT-Conll.html
 docs/Lingua-Interset-Tagset-JA-Ipadic.html
 docs/Lingua-Interset-Tagset-MUL-Google.html
 docs/Lingua-Interset-Tagset-MUL-Upos.html
@@ -94,6 +95,7 @@ lib/Lingua/Interset/Tagset/HE/Conll.pm
 lib/Lingua/Interset/Tagset/HI/Conll.pm
 lib/Lingua/Interset/Tagset/HR/Multext.pm
 lib/Lingua/Interset/Tagset/HU/Conll.pm
+lib/Lingua/Interset/Tagset/IT/Conll.pm
 lib/Lingua/Interset/Tagset/JA/Ipadic.pm
 lib/Lingua/Interset/Tagset/MUL/Google.pm
 lib/Lingua/Interset/Tagset/MUL/Upos.pm
